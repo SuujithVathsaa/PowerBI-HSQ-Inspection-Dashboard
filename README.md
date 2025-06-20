@@ -47,13 +47,49 @@ It supports:
 
 ---
 
+
+## 🧮 Key sample DAX Measures Used
+
+### 🟣 OFI Count 
+
+-- OFI Count
+OFI Count H&S = 
+COALESCE(
+    CALCULATE(
+        COUNTROWS('H&S'),
+        FILTER('H&S', 'H&S'[defect_rating] = "OFI")
+    ),
+    0
+)
+
+### 🟣 Minor Count
+Minor Count H&S = 
+COALESCE(
+    CALCULATE(
+        COUNTROWS('H&S'),
+        FILTER('H&S', 'H&S'[defect_rating] = "Minor")
+    ),
+    0
+)
+
+### 🟣 Major Count
+Major Count H&S = 
+COALESCE(
+    CALCULATE(
+        COUNTROWS('H&S'),
+        FILTER('H&S', 'H&S'[defect_rating] = "Major")
+    ),
+    0
+)
+
+
+---
 ## 🗃️ Files
 
 | File Name | Description |
 |-----------|-------------|
 | `H&S_Quality_Inspection.pbix` | Main Power BI dashboard file |
 | `README.md` | This documentation |
-| `assets/` | Folder for images/screenshots used in tooltips or this README (optional) |
 
 > ⚠️ Sample data has been anonymized for demonstration. Replace with your data if replicating this dashboard in your environment.
 
@@ -77,5 +113,6 @@ Contributions and ideas are welcome! Feel free to raise issues, suggest enhancem
 
 ## 📬 Contact
 
-For questions or collaboration, feel free to reach out or connect via GitHub Discussions.
+For questions or collaboration, feel free to reach out or connect via GitHub Discussions or 
+linkdin - https://www.linkedin.com/in/sujith-vathsaa-55969416a/.
 
