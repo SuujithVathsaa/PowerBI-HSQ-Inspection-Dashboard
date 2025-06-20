@@ -41,6 +41,9 @@ It supports:
 ### 🎨 Custom Theme
 - Futuristic purple background and card-style visuals for better readability and presentation
 
+!![image](https://github.com/user-attachments/assets/5df14e45-e436-47a5-b429-32bebde06604)
+(./dashboard.png)
+
 ---
 
 ## 🗃️ Files
