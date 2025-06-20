@@ -2,7 +2,8 @@
 
 This repository hosts the **Power BI Dashboard** for monitoring **Health & Safety**, **Quality**, and **Depot Inspections**. It helps operational teams improve visibility into inspection outcomes, non-conformance events, and inspector performance.
 
-![Dashboard Screenshot](./2e844c39-df7d-44d8-b0b5-ff04a3dc29a6.png)
+![image](https://github.com/user-attachments/assets/3e7ff6af-c04d-4e5b-bc09-d449ab170b06)
+(./2e844c39-df7d-44d8-b0b5-ff04a3dc29a6.png)
 
 ---
 
